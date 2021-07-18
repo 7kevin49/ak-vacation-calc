@@ -1,0 +1,28 @@
+{
+  "name": "ak-vacation-calc",
+  "version": "1.0.0",
+  "description": "simple vacation trip calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7kevin49/ak-vacation-calc.git"
+  },
+  "author": "Kevin Perdomo, Abraham Duarte Perdomo",
+  "license": "(MIT)",
+  "bugs": {
+    "url": "https://github.com/7kevin49/ak-vacation-calc/issues"
+  },
+  "homepage": "https://github.com/7kevin49/ak-vacation-calc#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fastify": "^3.19.1",
+    "fastify-formbody": "^5.0.0",
+    "fastify-static": "^4.2.2",
+    "handlebars": "^4.7.7",
+    "point-of-view": "^4.15.1",
+    "twilio": "^3.66.0"
+  }
+}

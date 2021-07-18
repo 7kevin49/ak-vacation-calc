@@ -1,0 +1,28 @@
+:root {
+    --color-bg: #aaf0d1;
+}
+
+body {
+    font-family: HK Grotesk;
+    background-color: var(--color-bg);
+}
+
+@font-face {
+    font-family: HK Grotesk;
+    src: url("https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+      format("opentype");
+  }
+
+  h1 {
+    color: #000000;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 105%;
+    margin: 2rem 0 0;
+    text-align: center;
+  }
+  p {
+      text-align:center;
+  }
